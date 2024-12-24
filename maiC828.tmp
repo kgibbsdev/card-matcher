@@ -1,0 +1,88 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkh0t5f75ub1h"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_44o3q"]
+[ext_resource type="PackedScene" uid="uid://bla2f0cdsbuau" path="res://card.tscn" id="1_njpf5"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_44o3q")
+
+[node name="Card1" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(327, 112)
+
+[node name="Card2" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(457, 113)
+
+[node name="Card3" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(587, 114)
+
+[node name="Card4" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(721, 113)
+
+[node name="Card5" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(852, 114)
+
+[node name="Card6" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(328, 243)
+
+[node name="Card7" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(458, 244)
+
+[node name="Card8" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(588, 245)
+
+[node name="Card9" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(722, 244)
+
+[node name="Card10" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(853, 245)
+
+[node name="Card11" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(327, 376)
+
+[node name="Card12" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(457, 377)
+
+[node name="Card13" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(587, 378)
+
+[node name="Card14" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(721, 377)
+
+[node name="Card15" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(852, 378)
+
+[node name="Card16" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(327, 516)
+
+[node name="Card17" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(457, 517)
+
+[node name="Card18" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(587, 518)
+
+[node name="Card19" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(721, 517)
+
+[node name="Card20" parent="." instance=ExtResource("1_njpf5")]
+position = Vector2(852, 518)
+
+[connection signal="card_picked" from="Card1" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card2" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card3" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card4" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card5" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card6" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card7" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card8" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card9" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card10" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card11" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card12" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card13" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card14" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card15" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card16" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card17" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card18" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card19" to="." method="on_card_card_picked"]
+[connection signal="card_picked" from="Card20" to="." method="on_card_card_picked"]

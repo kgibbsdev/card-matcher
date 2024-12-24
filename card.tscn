@@ -1,0 +1,91 @@
+[gd_scene load_steps=13 format=3 uid="uid://bla2f0cdsbuau"]
+
+[ext_resource type="Script" path="res://card.gd" id="1_ce2yn"]
+[ext_resource type="Texture2D" uid="uid://clvdjoy6dfk6y" path="res://card.png" id="2_v2d2u"]
+[ext_resource type="Texture2D" uid="uid://cygj3bp2s42ge" path="res://NumberSprites/1.png" id="3_5bxfs"]
+[ext_resource type="Texture2D" uid="uid://t5mveqf617p6" path="res://NumberSprites/2.png" id="4_vexnb"]
+[ext_resource type="Texture2D" uid="uid://drlpc071vkau3" path="res://NumberSprites/3.png" id="5_47vls"]
+[ext_resource type="Texture2D" uid="uid://80cfiy3h7v0k" path="res://NumberSprites/4.png" id="6_nrjd7"]
+[ext_resource type="Texture2D" uid="uid://byphkh6owaqd3" path="res://NumberSprites/5.png" id="7_1euqh"]
+[ext_resource type="Texture2D" uid="uid://b8k0u7fqpgke8" path="res://NumberSprites/6.png" id="8_cy7sh"]
+[ext_resource type="Texture2D" uid="uid://bsmjlwawmjsgc" path="res://NumberSprites/7.png" id="9_khlv6"]
+[ext_resource type="Texture2D" uid="uid://ox6655d2wr8" path="res://NumberSprites/8.png" id="10_llapj"]
+[ext_resource type="Texture2D" uid="uid://bnb6uatu67h8v" path="res://NumberSprites/9.png" id="11_l0jg3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wvmmb"]
+size = Vector2(98, 99)
+
+[node name="Card" type="Area2D"]
+script = ExtResource("1_ce2yn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_wvmmb")
+
+[node name="CardSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_v2d2u")
+
+[node name="Number1" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("3_5bxfs")
+
+[node name="Number2" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("4_vexnb")
+
+[node name="Number3" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("5_47vls")
+
+[node name="Number4" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("6_nrjd7")
+
+[node name="Number5" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("7_1euqh")
+
+[node name="Number6" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("8_cy7sh")
+
+[node name="Number7" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("9_khlv6")
+
+[node name="Number8" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("10_llapj")
+
+[node name="Number9" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+position = Vector2(-2, -4)
+scale = Vector2(4.35714, 5)
+texture = ExtResource("11_l0jg3")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
