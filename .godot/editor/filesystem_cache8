@@ -1,0 +1,24 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1735014956
+card.gd::GDScript::-1::1734961566::0::1::::Card<>Area2D<>::
+card.png::CompressedTexture2D::5588469577178181398::1734944171::1734944172::1::::<><>::
+card.tscn::PackedScene::3160147567819461484::1734996228::0::1::::<><>::res://card.gd<>uid://clvdjoy6dfk6y::::res://card.png<>uid://cygj3bp2s42ge::::res://NumberSprites/1.png<>uid://t5mveqf617p6::::res://NumberSprites/2.png<>uid://drlpc071vkau3::::res://NumberSprites/3.png<>uid://80cfiy3h7v0k::::res://NumberSprites/4.png<>uid://byphkh6owaqd3::::res://NumberSprites/5.png<>uid://b8k0u7fqpgke8::::res://NumberSprites/6.png<>uid://bsmjlwawmjsgc::::res://NumberSprites/7.png<>uid://ox6655d2wr8::::res://NumberSprites/8.png<>uid://bnb6uatu67h8v::::res://NumberSprites/9.png
+Global.gd::GDScript::-1::1734940474::0::1::::<>RefCounted<>::
+icon.svg::CompressedTexture2D::1029540719660975549::1734770848::1734770854::1::::<><>::
+main.gd::GDScript::-1::1734995923::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3104313204174536127::1734995924::0::1::::<><>::res://main.gd
+::res://addons/::1734996205
+::res://NumberSprites/::1734775270
+0.png::CompressedTexture2D::6180734961729326363::1734773443::1734775270::1::::<><>::
+1.png::CompressedTexture2D::6470356413334971364::1734773443::1734775270::1::::<><>::
+2.png::CompressedTexture2D::1396285702409543165::1734773443::1734775270::1::::<><>::
+3.png::CompressedTexture2D::8376096238427090724::1734773443::1734775270::1::::<><>::
+4.png::CompressedTexture2D::2367972105406556704::1734773443::1734775270::1::::<><>::
+5.png::CompressedTexture2D::4102361890423090978::1734773443::1734775270::1::::<><>::
+6.png::CompressedTexture2D::4724851631204513073::1734773443::1734775270::1::::<><>::
+7.png::CompressedTexture2D::3675159655423946590::1734773443::1734775270::1::::<><>::
+8.png::CompressedTexture2D::30354814937663235::1734773443::1734775270::1::::<><>::
+9.png::CompressedTexture2D::3302858001698125891::1734773443::1734775270::1::::<><>::
+licence info.txt::TextFile::-1::1734773443::0::1::::<><>::
+Numbers 7x10.png::CompressedTexture2D::949531380948898939::1734773443::1734775270::1::::<><>::
+Numbers Preview.png::CompressedTexture2D::36535552667104719::1734773443::1734775270::1::::<><>::
